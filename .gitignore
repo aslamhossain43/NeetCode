@@ -3,4 +3,5 @@
 *.iml
 *.ipr
 *.xml
+*.class
 .idea/

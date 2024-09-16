@@ -6,6 +6,6 @@ package src.arrays_and_hashing;
  */
 public class ContainsDuplicate {
     public static void main(String[] args) {
-        
+        System.out.println("sjdkhjsd");
     }
 }

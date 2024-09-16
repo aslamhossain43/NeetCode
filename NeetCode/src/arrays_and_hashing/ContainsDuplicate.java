@@ -6,6 +6,6 @@ package arrays_and_hashing;
  */
 public class ContainsDuplicate {
     public static void main(String[] args) {
-        
+
     }
 }

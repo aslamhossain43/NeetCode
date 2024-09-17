@@ -10,7 +10,7 @@ import java.util.Set;
 public class ContainsDuplicate {
     public static void main(String[] args) {
         int[] nums = {3, 1, 8, 4, 5, 6, 3};
-        System.out.println("Is Duplicate: " + containsDuplicate(nums));
+        System.out.println("Is duplicate: " + containsDuplicate(nums));
     }
 
     private static boolean containsDuplicate(int[] nums) {

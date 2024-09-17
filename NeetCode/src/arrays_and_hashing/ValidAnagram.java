@@ -8,7 +8,7 @@ public class ValidAnagram {
     public static void main(String[] args) {
         String s = "anagram";
         String t = "nagaram";
-        System.out.println("Is Anagram: " + isAnagram(s, t));
+        System.out.println("Is anagram: " + isAnagram(s, t));
     }
 
     private static boolean isAnagram(String s, String t) {

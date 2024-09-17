@@ -9,7 +9,7 @@ import java.util.*;
 public class GroupAnagrams {
     public static void main(String[] args) {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        System.out.println("Group Anagrams are: " + groupAnagrams(strs));
+        System.out.println("Group anagrams are: " + groupAnagrams(strs));
     }
 
     private static List<List<String>> groupAnagrams(String[] strs) {

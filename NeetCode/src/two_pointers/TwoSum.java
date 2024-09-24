@@ -8,19 +8,19 @@ import java.util.Arrays;
  */
 public class TwoSum {
     public static void main(String[] args) {
-        int[] nums = {2, 7, 11, 15};
+        int[] numbers = {2, 7, 11, 15};
         int target = 9;
-        System.out.println("Two sum is: " + Arrays.toString(twoSum(nums, target)));
+        System.out.println("Two sum is: " + Arrays.toString(twoSum(numbers, target)));
     }
 
-    private static int[] twoSum(int[] nums, int target) {
+    private static int[] twoSum(int[] numbers, int target) {
         int a_pointer = 0;
-        int b_pointer = nums.length - 1;
+        int b_pointer = numbers.length - 1;
         int num_a;
         int num_b;
         while (a_pointer < b_pointer) {
-            num_a = nums[a_pointer];
-            num_b = nums[b_pointer];
+            num_a = numbers[a_pointer];
+            num_b = numbers[b_pointer];
             if (num_a + num_b == target) {
                 break;
             }

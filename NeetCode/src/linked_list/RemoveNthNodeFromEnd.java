@@ -5,26 +5,6 @@ package linked_list;
  * @Date Oct 14, 2024
  */
 public class RemoveNthNodeFromEnd {
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-
-        }
-
-        @Override
-        public String toString() {
-            return "ListNode{" + "val=" + val + ", next=" + next + '}';
-        }
-    }
 
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
